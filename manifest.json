@@ -1,0 +1,55 @@
+{
+  "name": "Diario Alimentare",
+  "short_name": "DiarioFood",
+  "description": "App per il tracking alimentare con calcolo calorie AI",
+  "start_url": "/login.html",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "it",
+  "categories": ["health", "lifestyle", "food"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 72'%3E%3Ccircle cx='36' cy='36' r='36' fill='%23667eea'/%3E%3Cpath d='M20 30h32v4H20zm0 8h32v4H20zm0 8h24v4H20z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "72x72",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='48' fill='%23667eea'/%3E%3Cpath d='M26 40h44v5H26zm0 10h44v5H26zm0 10h32v5H26z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Ccircle cx='64' cy='64' r='64' fill='%23667eea'/%3E%3Cpath d='M35 54h58v6H35zm0 14h58v6H35zm0 14h42v6H35z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 144 144'%3E%3Ccircle cx='72' cy='72' r='72' fill='%23667eea'/%3E%3Cpath d='M40 60h64v7H40zm0 16h64v7H40zm0 16h48v7H40z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "144x144",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 152 152'%3E%3Ccircle cx='76' cy='76' r='76' fill='%23667eea'/%3E%3Cpath d='M42 64h68v8H42zm0 18h68v8H42zm0 18h50v8H42z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "152x152",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Ccircle cx='96' cy='96' r='96' fill='%23667eea'/%3E%3Cpath d='M52 80h88v10H52zm0 22h88v10H52zm0 22h66v10H52z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 384'%3E%3Ccircle cx='192' cy='192' r='192' fill='%23667eea'/%3E%3Cpath d='M104 160h176v20H104zm0 44h176v20H104zm0 44h132v20H104z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "384x384",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Ccircle cx='256' cy='256' r='256' fill='%23667eea'/%3E%3Cpath d='M140 214h232v26H140zm0 58h232v26H140zm0 58h174v26H140z' fill='white'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

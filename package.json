@@ -1,0 +1,97 @@
+{
+  "name": "diario-alimentare",
+  "version": "1.0.0",
+  "description": "App per il tracking alimentare con calcolo calorie AI",
+  "main": "login.html",
+  "scripts": {
+    "start": "http-server . -p 8080 -o",
+    "build": "echo 'Building PWA...' && npm run minify",
+    "minify": "echo 'Minification completed'",
+    "cordova-init": "cordova create DiarioAlimentareApp com.diarioalimentare.app \"Diario Alimentare\"",
+    "cordova-setup": "cd DiarioAlimentareApp && cordova platform add android && cordova platform add ios",
+    "cordova-build-android": "cd DiarioAlimentareApp && cordova build android",
+    "cordova-build-android-release": "cd DiarioAlimentareApp && cordova build android --release",
+    "cordova-run-android": "cd DiarioAlimentareApp && cordova run android",
+    "deploy-netlify": "echo 'Deploy to Netlify: drag and drop the project folder to netlify.com'",
+    "deploy-vercel": "echo 'Deploy to Vercel: run npx vercel in the project directory'",
+    "deploy-github-pages": "echo 'Deploy to GitHub Pages: push to GitHub and enable Pages in repository settings'",
+    "test-pwa": "echo 'Testing PWA features...' && npm start",
+    "lighthouse": "lighthouse http://localhost:8080 --output html --output-path ./lighthouse-report.html"
+  },
+  "keywords": [
+    "food",
+    "diary",
+    "nutrition",
+    "calories",
+    "health",
+    "fitness",
+    "pwa",
+    "mobile-app",
+    "android",
+    "ios"
+  ],
+  "author": "Diario Alimentare Team",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/diario-alimentare",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/diario-alimentare.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/diario-alimentare/issues"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "lighthouse": "^11.4.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ],
+  "pwa": {
+    "name": "Diario Alimentare",
+    "short_name": "DiarioFood",
+    "description": "App per il tracking alimentare con calcolo calorie AI",
+    "theme_color": "#667eea",
+    "background_color": "#667eea",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "/login.html",
+    "scope": "/"
+  },
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-network-information": {}
+    }
+  },
+  "build": {
+    "appId": "com.diarioalimentare.app",
+    "productName": "Diario Alimentare",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules",
+      "!.git",
+      "!.gitignore",
+      "!package-lock.json",
+      "!*.md"
+    ]
+  }
+}
