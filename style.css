@@ -275,13 +275,55 @@ header h1 i {
     margin-right: 15px;
 }
 
+.date-selector {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.date-label {
+    display: block;
+    margin-bottom: 10px;
+    color: #4a5568;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.date-label i {
+    color: #667eea;
+    margin-right: 8px;
+}
+
 .date-selector input {
     padding: 12px 20px;
     border: 2px solid #e2e8f0;
     border-radius: 12px;
     font-size: 1.1rem;
     background: white;
+    color: #2c3e50;
+    font-weight: 500;
+    min-width: 200px;
     transition: all 0.3s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.date-selector input::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.date-selector input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
 }
 
 .date-selector input:focus {
